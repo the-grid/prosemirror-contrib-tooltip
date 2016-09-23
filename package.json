@@ -1,0 +1,31 @@
+{
+  "name": "prosemirror-contrib-tooltip",
+  "version": "0.0.0",
+  "description": "tooltip rescue for modularized prosemirror",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rimraf dist && buble -i src -o dist",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/the-grid/prosemirror-contrib-tooltip.git"
+  },
+  "keywords": [
+    "prosemirror",
+    "menu"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/the-grid/prosemirror-contrib-tooltip/issues"
+  },
+  "homepage": "https://github.com/the-grid/prosemirror-contrib-tooltip#readme",
+  "dependencies": {
+    "prosemirror-menu": "^0.11.1"
+  },
+  "devDependencies": {
+    "buble": "^0.14.0",
+    "rimraf": "^2.5.4"
+  }
+}
